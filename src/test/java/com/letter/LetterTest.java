@@ -1,11 +1,16 @@
 package com.letter;
 
+import org.junit.Test;
+
+import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
 public class LetterTest {
 
-    @org.junit.Test
+    @Test
     public void letterCombinations() {
-        System.out.println(Letter.letterCombinations("11112345"));;
+        assertThat(3, is(3));
+
+
     }
 }
